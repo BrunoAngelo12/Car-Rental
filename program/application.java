@@ -5,6 +5,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.CarRental;
+import entities.Vehicle;
+
 public class application {
     public static void main(String[] args) {
         
@@ -23,7 +26,7 @@ public class application {
         Double dbPrecoHora = sc.nextDouble();
         System.out.print("Entre com o preço por dia: ");
         Double dbPrecoDia = sc.nextDouble();
-
+        //CarRental cr = new CarRental(ldtRetirada, ldtRetorno, new Vehicle(strModeloCarro));
 
     }
 }
